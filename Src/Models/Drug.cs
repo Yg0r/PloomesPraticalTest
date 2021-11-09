@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace PloomesPraticalTest.Models
+namespace PloomesPraticalTest.Src.Models
 {
     public class Drug
     {
-        public int Id { get; set; }
+         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public int Quantity { get; set; }
-        public decimal Price { get; set; }
+        public Decimal Price { get; set; }
         public Boolean IsGeneric { get; set; }
     }
 }
