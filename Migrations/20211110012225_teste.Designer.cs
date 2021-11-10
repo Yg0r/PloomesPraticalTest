@@ -9,7 +9,7 @@ using PloomesPraticalTest.Data;
 namespace PloomesPraticalTest.Migrations
 {
     [DbContext(typeof(DrugContext))]
-    [Migration("20211109230654_teste")]
+    [Migration("20211110012225_teste")]
     partial class teste
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
