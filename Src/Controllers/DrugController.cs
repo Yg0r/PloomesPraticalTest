@@ -1,11 +1,10 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PloomesPraticalTest.Data;
 using PloomesPraticalTest.Src.Models;
 
-namespace PloomesPraticalTest.Src.Controller
+namespace PloomesPraticalTest.Src.Controllers
 {
     [ApiController]
     [Route("v1/drug")]
