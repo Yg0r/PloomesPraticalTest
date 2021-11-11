@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using PloomesPraticalTest.Data;
 using PloomesPraticalTest.Src.Models;
 
-namespace PloomesPraticalTest.Src.Controllers
+namespace PloomesPraticalTest.Src.Controller
 {
     [ApiController]
     [Route("v1/drug")]

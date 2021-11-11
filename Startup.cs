@@ -37,8 +37,8 @@ namespace PloomesPraticalTest
                     Description = "An ASP.NET Core Web API for inserting medicines into a database",
                     License = new OpenApiLicense
                     {
-                        Name =  "License GLP3",
-                        Url = new Uri("https://www.gnu.org/licenses/gpl-3.0.html")
+                        Name =  "License MIT",
+                        Url = new Uri("https://opensource.org/licenses/MIT")
                     },
                     
                 });                
@@ -52,9 +52,10 @@ namespace PloomesPraticalTest
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PloomesPraticalTest v1"));
+                
             }
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "PloomesPraticalTest v1"));
 
             app.UseHttpsRedirection();
 
