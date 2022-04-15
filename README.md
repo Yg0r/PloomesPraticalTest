@@ -24,10 +24,10 @@ $ git clone https://github.com/Yg0r/PloomesPraticalTest.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd PloomesPraticalTest
 
-# Restaura as dependências e as ferramentas de um projeto
+# Restaure as dependências e as ferramentas do projeto
 $ dotnet restore
 
-# Executa o projeto com Hot Reload
+# Execute o projeto com Hot Reload
 $ dotnet watch run
 
 # O projeto iniciará na porta:5001 - acesse http://localhost:5001/swagger 
